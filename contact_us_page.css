@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+body{
+  background: url(img/bck.png) no-repeat center ;
+  height: 100vh;
+  font: system-ui;
+  background-size: cover;
+
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+}
+
+header ul li{
+  margin-right: 30px;
+}
+header ul li a{
+  padding:6px 15px;
+  border-radius: 15px;
+}
+
+header ul li a:hover{
+  background:#fff;
+  color: #200016;
+}
+
+.contact-section{
+  color: #fff;
+  overflow: hidden;
+  background-size: cover;
+  padding: 80px ;
+}
+.border{
+  width: 100px;
+  height: 1px;
+  margin :20px auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+}
+.contact-form{
+  max-width: 600px;
+  margin:auto;
+  padding:0 10px ;
+  overflow: hidden;
+}
+.contact-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0 ;
+  border: 0;
+  background: #111;
+  padding: 20px 40px ;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+
+.contact-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+
+}
+textarea.contact-text{
+  resize: none;
+  height: 120px;
+}
+
+.contact-text-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-text-btn:hover{
+  background: #2980b9;
+
+}
