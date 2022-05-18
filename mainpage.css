@@ -143,7 +143,7 @@ header ul li a:hover{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-160%,-50%);
+  transform: translate(-50%,-50%);
   width: 400px;
   border-radius: 50px;
   color: #ddd;
@@ -151,6 +151,7 @@ header ul li a:hover{
 .center h1{
   text-align: center;
   padding: 0 0 20px 0;
+  color: gold;
   border-bottom: 1px solid silver ;
 }
 .center form{
