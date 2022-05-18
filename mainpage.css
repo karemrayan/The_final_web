@@ -141,7 +141,7 @@ header ul li a:hover{
 
 .center{
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%,-50%);
   width: 400px;
@@ -163,7 +163,7 @@ form .txt_field{
   border-bottom: 2px solid #adadad;
   margin: 30px 0;
 }
-.txt_field input{
+.txt_field  input{
   padding: 0 5px;
   display: block;
   width: 100%;
@@ -179,6 +179,19 @@ form .txt_field{
 .txt_field input:focus{
     box-shadow: 0 0 10px 4px #34495e;
 }
+.menu,label{
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 5px;
+  margin: 16px 0 ;
+  border: 0;
+  transition: 0.5s;
+  outline: none;
+  color: #ddd;
+  background: #111;
+  border-radius: 20px;
+}
+.menu,label{  box-shadow: 0 0 10px 4px #34495e;}
 .sub{
   background:#f9004d;
   color: #ddd;
@@ -214,5 +227,4 @@ form .txt_field{
 }
 .sign_up_link a:hover{
   text-decoration: underline;
-  
 }
