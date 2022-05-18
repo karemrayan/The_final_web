@@ -17,7 +17,7 @@
         <li><a href="contact_us_page.html">Contact US</a></li>
       </ul>
     </header>
-    <section class="main">
+      <section class="main">
       <img src="img/1.png" id="stars">
       <h2 class="Namy">Karim Rayan</h2>
       <img src="img/2.png" id="moon">
@@ -86,10 +86,32 @@
     </div>
     <div class="center">
       <h1>Login</h1>
-      <form method="post">
+      <form action="#" method="post" id="form">
         <div class="txt_field">
-          <input type="text" required placeholder="UserName">
-          <input type="password" required placeholder="Password">
+          <div class="firstname" >
+                    <input type="text" name="firstname" placeholder="First Name" required>
+                </div>
+                <div class="lastname">
+                    <input type="text" name="lastname" placeholder="Last Name" required>
+                </div>
+                <div class="email">
+                    <input type="email" name="mail" placeholder="Email" required>
+                </div>
+                 <div class="mobile">
+                     <input type="text" name="phonenumber" placeholder="Mobile" required id="phone">
+                 </div>
+                <div id="phonediv"></div>
+                 <div class="address">
+                     <input type="text" name="address" placeholder="Address" required>
+                 </div>
+                 <div >
+                    <input type="password" name="password" placeholder="Password" id="password" required>
+                </div>
+                <div id="passworddiv" ></div>
+          <div class="menu">
+            <input type="radio" name="Gender" value="Male"><label>Male</label>
+            <input type="radio" name="Gender" value="Female"><label>Female</label>
+          </div>
         </div>
         <div class="pass">Forget Password ?</div>
         <input type="submit" value="Login" class="sub">
@@ -101,5 +123,5 @@
     <script src="mainpage.js">
 
     </script>
-  </body>
+ </body>
 </html>
